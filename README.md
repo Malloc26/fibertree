@@ -57,7 +57,10 @@ Run tests
    % python3 -m unittest discover [-v]
 ```
 
-
+Usage Notes
+==========
+#### Fiber Coordinates
+Currently, only coordinates of type `int` and `tuple` are supported. Please cast coordinates using types such as `numpy.int32` to `int` before passing them to HiFiber. 
 
 References
 ==========
